@@ -1,10 +1,10 @@
-Certainly! Below is an updated PowerShell script that loops through all Azure subscriptions associated with your account, retrieves all Role-Based Access Control (RBAC) assignments, and exports the data with user principal names to a CSV file.
-
 Install the Azure PowerShell module (if not already installed):
 
+# Install Module
 Install-Module -Name Az -AllowClobber -Scope CurrentUser
 Authenticate to Azure:
 
+# Connect to Azure
 Connect-AzAccount
 Script to download RBAC assignments for all subscriptions:
 
